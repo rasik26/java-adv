@@ -30,6 +30,10 @@ public class Product {
 		this.price = price;
 		this.qty = qty;
 	}
+	public Product( ) {
+		super();
+		
+	}
 	@Override
 	public String toString() {
 		return "Product [pid=" + pid + ", pname=" + pname + ", price=" + price + ", qty=" + qty + "]";
