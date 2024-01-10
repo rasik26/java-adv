@@ -19,9 +19,9 @@
     <property name="hbm2ddl.auto">create</property>
     <!-- mapping class" / -->
    <!--  <mapping class="com.demo.beans.Department"/>-->
-    <!-- <mapping class="com.demo.model.Product"/> --> 
+     <mapping class="com.demo.model.Product"/>
    <!--  <mapping class="com.demo.beans.User"/>  -->
     <!-- <mapping resource="myuser.hbm.xml"/> -->
-    <mapping resource="employee.hbm.xml"/>   
+   <!--   <mapping resource="employee.hbm.xml"/> -->   
   </session-factory>
 </hibernate-configuration>
